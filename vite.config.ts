@@ -4,7 +4,10 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 const port = Number(process.env.PORT ?? 5173);
-const basePath = process.env.BASE_PATH ?? "/";
+const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+const basePath =
+  process.env.BASE_PATH ??
+  (process.env.GITHUB_ACTIONS && repoName ? `/${repoName}/` : "/");
 
 export default defineConfig({
   base: basePath,
