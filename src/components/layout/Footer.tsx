@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { MapPin, Phone, Mail, Instagram, Twitter, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 
-const logoImg = `${import.meta.env.BASE_URL}logo.svg`;
+const logoImg = `${import.meta.env.BASE_URL}logo.svg?v=20260416-2`;
 
 const footerLinks = {
   Services: [

@@ -6,7 +6,7 @@ import { ArrowRight, BarChart3, Globe, Megaphone, Target, CheckCircle2, Share2, 
 import { Link } from "wouter";
 import { useRef, useState, useEffect } from "react";
 
-const logoIcon = `${import.meta.env.BASE_URL}Logo2.svg`;
+const logoIcon = `${import.meta.env.BASE_URL}Logo2.svg?v=20260416-2`;
 
 /* ═══════════════════════════════════════════
    Animated 3D "8" — hero visual (UNCHANGED)

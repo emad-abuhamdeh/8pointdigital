@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Clock, CheckCircle2, Instagram, Linkedin, Twitter, ArrowRight, MessageSquare, Calendar, Send } from "lucide-react";
 import { useState } from "react";
 
-const logoIcon = `${import.meta.env.BASE_URL}Logo2.svg`;
+const logoIcon = `${import.meta.env.BASE_URL}Logo2.svg?v=20260416-2`;
 import { useToast } from "@/hooks/use-toast";
 
 const services = [
