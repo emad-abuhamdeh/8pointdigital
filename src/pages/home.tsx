@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, BarChart3, Globe, Megaphone, Target, CheckCircle2, Share2, Gem, Search, Star, Quote, TrendingUp, Users, Zap, MousePointerClick } from "lucide-react";
 import { Link } from "wouter";
 import { useRef, useState, useEffect } from "react";
+import { useContactModal } from "@/context/ContactModalContext";
 
 const logoIcon = `${import.meta.env.BASE_URL}Logo2.svg?v=20260416-2`;
 
@@ -291,6 +292,7 @@ const portfolio = [
 
 export default function Home() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
+  const { openModal } = useContactModal();
   const heroRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({ target: heroRef, offset: ["start start", "end start"] });
   const heroY = useTransform(scrollYProgress, [0, 1], [0, 60]);
@@ -316,7 +318,7 @@ export default function Home() {
               </h1>
               <p className="text-xl text-gray-400 mb-8 leading-relaxed">Data-driven strategies, breathtaking design, and relentless execution to scale your brand in the modern digital landscape.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact"><Button size="lg" className="h-14 px-8 text-lg bg-[#6CC04A] hover:bg-[#5aab3b] text-white rounded-full w-full sm:w-auto shadow-[0_0_30px_rgba(108,192,74,0.4)]">Get Started <ArrowRight className="ml-2" /></Button></Link>
+                <Button onClick={openModal} size="lg" className="h-14 px-8 text-lg bg-[#6CC04A] hover:bg-[#5aab3b] text-white rounded-full w-full sm:w-auto shadow-[0_0_30px_rgba(108,192,74,0.4)]">Get Started <ArrowRight className="ml-2" /></Button>
                 <Link href="/contact"><Button size="lg" variant="outline" className="h-14 px-8 text-lg rounded-full w-full sm:w-auto border-white/20 text-white hover:bg-white/10">Book a Free Consultation</Button></Link>
               </div>
               {/* Hero floating micro-badges */}
