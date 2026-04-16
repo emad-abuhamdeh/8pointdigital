@@ -5,7 +5,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Clock, Heart, Lightbulb, TrendingUp, Users, CheckCircle2 } from "lucide-react";
 
-const logoIcon = "/logo.svg";
+const logoIcon = `${import.meta.env.BASE_URL}logo.svg`;
 
 const values = [
   {

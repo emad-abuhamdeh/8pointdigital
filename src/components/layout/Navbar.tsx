@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useContactModal } from "@/context/ContactModalContext";
 
-const logoImg = "/logo.svg";
+const logoImg = `${import.meta.env.BASE_URL}logo.svg`;
 
 /* Magnetic button wrapper */
 function MagneticBtn({ children, onClick }: { children: React.ReactNode; onClick?: () => void }) {

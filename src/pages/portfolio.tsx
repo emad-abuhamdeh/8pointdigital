@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, TrendingUp, Users, Search, Megaphone, Globe, Palette } from "lucide-react";
 import { Link } from "wouter";
 
-const logoIcon = "/logo.svg";
+const logoIcon = `${import.meta.env.BASE_URL}logo.svg`;
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
