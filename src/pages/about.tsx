@@ -65,7 +65,7 @@ export default function About() {
           <div style={{ background: "radial-gradient(ellipse 55% 55% at 60% 40%, rgba(108,192,74,0.10) 0%, transparent 70%)" }} className="absolute inset-0" />
           <div style={{ background: "radial-gradient(ellipse 40% 50% at 5% 70%, rgba(108,192,74,0.06) 0%, transparent 60%)" }} className="absolute inset-0" />
           <div className="absolute right-0 top-0 bottom-0 flex items-center pr-0 select-none pointer-events-none">
-            <img src={logoIcon} alt="" style={{ width: "480px", opacity: 0.12, mixBlendMode: "screen" }} />
+            <img src={logoIcon} alt="" style={{ width: "300px", opacity: 0.10, mixBlendMode: "screen" }} />
           </div>
         </div>
 

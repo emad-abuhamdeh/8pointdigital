@@ -44,7 +44,7 @@ export default function Contact() {
           <div style={{ background: "radial-gradient(ellipse 50% 60% at 75% 40%, rgba(108,192,74,0.10) 0%, transparent 70%)" }} className="absolute inset-0" />
           <div style={{ background: "radial-gradient(ellipse 40% 50% at 10% 60%, rgba(108,192,74,0.06) 0%, transparent 60%)" }} className="absolute inset-0" />
           <div className="absolute right-0 top-0 bottom-0 flex items-center pr-0 select-none pointer-events-none">
-            <img src={logoIcon} alt="" style={{ width: "460px", opacity: 0.12, mixBlendMode: "screen" }} />
+            <img src={logoIcon} alt="" style={{ width: "280px", opacity: 0.10, mixBlendMode: "screen" }} />
           </div>
         </div>
         <div className="container mx-auto px-4 md:px-6 relative z-10">

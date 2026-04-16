@@ -136,7 +136,7 @@ export default function Services() {
           <div style={{ background: "radial-gradient(ellipse 60% 50% at 20% 50%, rgba(108,192,74,0.10) 0%, transparent 70%)" }} className="absolute inset-0" />
           <div style={{ background: "radial-gradient(ellipse 40% 60% at 85% 30%, rgba(108,192,74,0.06) 0%, transparent 60%)" }} className="absolute inset-0" />
           <div className="absolute left-0 top-0 bottom-0 flex items-center pl-0 select-none pointer-events-none">
-            <img src={logoIcon} alt="" style={{ width: "460px", opacity: 0.12, mixBlendMode: "screen" }} />
+            <img src={logoIcon} alt="" style={{ width: "280px", opacity: 0.10, mixBlendMode: "screen" }} />
           </div>
         </div>
 

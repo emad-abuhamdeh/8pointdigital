@@ -429,7 +429,7 @@ export default function Home() {
       {/* ══ PROCESS — 3D perspective timeline ══ */}
       <section className="py-28 border-t border-white/10 bg-gray-900/30 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <img src={logoIcon} alt="" className="absolute right-0 top-1/2 -translate-y-1/2 opacity-[0.05]" style={{ width: "400px", mixBlendMode: "screen" }} />
+          <img src={logoIcon} alt="" className="absolute right-0 top-1/2 -translate-y-1/2 opacity-[0.04]" style={{ width: "240px", mixBlendMode: "screen" }} />
         </div>
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="text-center mb-16">
@@ -689,7 +689,7 @@ export default function Home() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="relative rounded-3xl overflow-hidden border border-[#6CC04A]/25 bg-gradient-to-br from-gray-900 to-gray-950 p-10 md:p-20 text-center">
             <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse 70% 80% at 50% 50%, rgba(108,192,74,0.09) 0%, transparent 70%)" }} />
-            <img src={logoIcon} alt="" className="absolute right-0 top-1/2 -translate-y-1/2 pointer-events-none opacity-[0.07]" style={{ width: "380px", mixBlendMode: "screen" }} />
+            <img src={logoIcon} alt="" className="absolute right-0 top-1/2 -translate-y-1/2 pointer-events-none opacity-[0.05]" style={{ width: "220px", mixBlendMode: "screen" }} />
             <div className="relative z-10">
               <div className="text-[#6CC04A] text-sm font-semibold uppercase tracking-widest mb-4">Free strategy session</div>
               <h2 className="text-3xl md:text-6xl font-bold text-white mb-6 leading-tight">Ready to scale your brand?</h2>

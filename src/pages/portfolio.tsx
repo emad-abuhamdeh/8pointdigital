@@ -127,7 +127,7 @@ export default function Portfolio() {
           <div style={{ background: "radial-gradient(ellipse 40% 60% at 10% 70%, rgba(108,192,74,0.06) 0%, transparent 60%)" }} className="absolute inset-0" />
           {/* Watermark 8 */}
           <div className="absolute right-0 top-0 bottom-0 flex items-center pr-16 select-none pointer-events-none">
-            <img src={logoIcon} alt="" style={{ width: "460px", opacity: 0.12, mixBlendMode: "screen" }} />
+            <img src={logoIcon} alt="" style={{ width: "280px", opacity: 0.10, mixBlendMode: "screen" }} />
           </div>
         </div>
 
