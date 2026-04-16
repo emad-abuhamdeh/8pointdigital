@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Globe, Search, Share2, MousePointerClick, Gem, CheckCircle2, ArrowRight, Zap, BarChart3, Target, Star } from "lucide-react";
 import { Link } from "wouter";
 
-const logoIcon = `${import.meta.env.BASE_URL}logo.svg`;
+const logoIcon = `${import.meta.env.BASE_URL}Logo2.svg`;
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
